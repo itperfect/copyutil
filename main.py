@@ -7,3 +7,4 @@ import os.path
 
 print(os.path.realpath(__file__))
 
+print("TEST2")
