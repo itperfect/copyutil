@@ -27,3 +27,6 @@ class MyAbstract(ABC):
 
     def delete_file(self):
         pass
+
+    def flush_file(self):
+        pass

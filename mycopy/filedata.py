@@ -60,3 +60,8 @@ class FileData(MyAbstract):
 
     def delete_file(self):
         os.remove(self.curr_src_file)
+
+    def flush_file(self):
+        self.curr_file_dst_dir = None
+        self.curr_file_name = None
+        self.curr_src_file = None

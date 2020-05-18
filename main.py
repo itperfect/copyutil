@@ -25,6 +25,7 @@ if not template.check_work_path(destination_path):
         exit(0)
 
 filelist_gen = template.get_name()
+source_file = False
 
 try:
     source_file = next(filelist_gen)
