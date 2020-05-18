@@ -9,6 +9,7 @@ class MyAbstract(ABC):
         self.check_path()
         self.copy_file()
         self.delete_file()
+        self.flush_file()
 
     def get_name(self):
         pass
